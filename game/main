@@ -1,0 +1,9 @@
+file = open('txt', 'r')
+r = file.readlines()
+for i in range(len(r)):
+    print(r[i])
+file.close()
+
+file = open('txt', 'a')
+file.write('\n4 44')
+file.close()
